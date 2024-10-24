@@ -1,4 +1,7 @@
+import '../../css/Usuarios.css';
+
 import React from 'react';
+
 import { useNavigate } from 'react-router-dom'; // Para la navegación entre rutas
 
 const Usuarios = () => {
