@@ -1,9 +1,12 @@
+// backend/routes/index.js
+
+// backend/routes/index.js
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+// Ruta principal
+router.get('/', (req, res) => {
+  res.send('Bienvenido a la API'); // O puedes enviar un HTML o un JSON
 });
 
 module.exports = router;
